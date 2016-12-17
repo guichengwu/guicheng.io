@@ -1,0 +1,214 @@
+/* h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+h4 {
+	text-align: center;
+} */
+
+p {
+	display: block;
+}
+
+body {
+	margin: 0;
+}
+
+ul.topnav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow : hidden;
+	background-color: #6534ff;
+}
+
+ul.topnav li {
+	float: right;
+}
+
+ul.topnav li a {
+	display: inline-block;
+	color : #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	transition: 0.3s;
+	font-size: 25px;
+}
+
+ul.topnav li a:hover {
+	background-color: #62bcfa;
+}
+
+#headPicture {
+	margin-top:15px;
+	width:100%;
+ 	height: auto;
+}
+
+ #headPicture div {
+	display: block;
+	position:relative;
+}
+
+#headPicture div img {
+	width: 100%;
+}
+
+#headPicture div p {
+	position:absolute;
+	text-align:center;
+	color: white;
+	font-size: 35px;
+	top: 250px; 
+    width: 100%;
+}
+
+#main {
+	width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: hidden;
+}
+
+.section {
+	width: 70%;
+	margin-left:auto;
+	margin-right:auto;
+	overflow-y: hidden;
+}
+
+.section_title {
+	text-align: center;
+	font-size: 28px;
+	color: #7d4627;
+}
+
+.subsection {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.logo {
+	width:15%;
+	float: left;
+	text-align: center;
+}
+
+.logo img {
+	width:100%;
+}
+
+.description {
+	width: 70%;
+	float: left;
+	margin-left:15%;
+	text-align: left;
+}
+
+.p_title {
+	color: #89bdd3;
+	font-size: 25px;
+}
+
+.p_subtitle {
+	color: #9ad3de;
+	font-size: 20px;
+}
+
+
+.p_subsubtitle {
+	color: #c9c9c9;
+	font-size: 15px;
+}
+
+#connect {
+	margin-top: 20px;
+	width: 100%;
+	height:150px;
+	align: center;
+	display:block;
+}
+
+#connnect_icon {
+	align: center;
+	display:block;
+	height: 150px;
+}
+
+#linkedin {
+	margin-left:38%;
+ 	float: left; 
+}
+
+#github {
+ 	float:left; 
+}
+
+#gmail {
+ 	float:left; 
+}
+
+#footer {
+	margin-top: 50px;
+	align: center;
+	display:block;
+}
+
+#connect_title {
+	text-align: center;
+	display:block;
+	font-size: 28px;
+	color: #7d4627;
+}
+
+.p_footer {
+	text-align: center;
+	font-size: 15px;
+	color: black;
+}
+
+.project_section {
+	width: 90%;
+	margin-left:auto;
+	margin-right:auto;
+	overflow-y: hidden;
+}
+
+.project_section_title {
+	text-align: center;
+	font-size: 28px;
+	color: #7d4627;
+}
+
+.project_subsection {
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
+}
+
+.project_logo {
+	width:45%;
+	float: left;
+	text-align:center;
+}
+
+.project_logo img {
+	width:100%;
+}
+
+.project_desc {
+	width: 45%;
+	height:480px;
+	float: left;
+	margin-left:10%;
+	text-align: left;
+}
